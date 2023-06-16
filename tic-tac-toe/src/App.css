@@ -1,0 +1,50 @@
+.title {
+    color: white;
+    font-size: 70px;
+    margin: -10px;
+}
+
+.title2 {
+   color: red;
+   font-size: 100px; 
+}
+
+.center-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-menu {
+    display: flex;
+    justify-content: center;
+    border: solid 4px white;
+}
+
+.menu-buttons {
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: purple;
+    text-align: center;
+    border-radius: 15%;
+    border: solid 4px black;
+}
+button:active {
+    background-color: white;
+    color: purple;
+}
+
+.monday {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lol-div {
+    background-color: black;
+}
